@@ -35,7 +35,18 @@
                             <td>Gaby</td>
                         </tr>
                     </table>
+                    <div>
+                        <button>Decir hola</button>
+                    </div>
                     <a href= "https://github.com/philarvz/HigaredaPilar"> Enlace a mi repositorio </a>
     </body>
+    ><script>
+        const mybutton = document.getElementsByTagName("button");
+
+        function decirHola(){
+            console.log("Hola mundo");
+        }
+        mybutton.item(0).addEventListener("mouseover", decirHola); 
+    </script>
 </html>
 
